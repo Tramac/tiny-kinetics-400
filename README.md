@@ -1,5 +1,5 @@
 # Kinetics-400迷你数据集
-[English](/README.md) | 简体中文
+[English](/README_en.md) | 简体中文
 
 该数据集旨在解决的问题：参照Kinetics-400数据格式，训练基于自己数据的视频理解模型。
 
