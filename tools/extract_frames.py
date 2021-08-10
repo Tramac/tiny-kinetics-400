@@ -37,7 +37,7 @@ def extract_frames(source_dir, target_dir):
 
             try:
                 # change videos to 30 fps and extract video frames
-                subprocess.call('ffmpeg -nostats -loglevel 0 -i %s -filter:v fps=fps=30 -s 340x256 -q:v 2 %s' %
+                subprocess.call('ffmpeg -nostats -loglevel 0 -i "%s" -filter:v fps=fps=30 -s 340x256 -q:v 2 "%s"' %
                                 (source_video_name, target_frames), shell=True)
 
                 # sanity check video frames
