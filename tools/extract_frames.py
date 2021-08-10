@@ -1,3 +1,6 @@
+"""
+Code borrowed from: https://github.com/amazon-research/video-contrastive-learning/blob/main/tools/data/k400/extract_frames.py
+"""
 import os
 import sys
 import subprocess
