@@ -22,7 +22,8 @@ Tiny-Kinetics-400同样包含400个类别，每个类别下仅有两条视频数
 
 | 下载方式 | 链接                                                         |
 | -------- | ------------------------------------------------------------ |
-| 百度云   | [BaiduCloud](https://pan.baidu.com/s/1l0DeJHBDuK4oBoDwyZdzOQ) (密码:xo0j) |
+| 百度云    | [BaiduCloud](https://pan.baidu.com/s/1l0DeJHBDuK4oBoDwyZdzOQ) (密码:xo0j) |
+| Google   | [GoogleDrive](https://drive.google.com/drive/folders/1OVDtdqNnOrzZ6PfoWMUNrsqvPijWHMCD?usp=sharing)|
 
 ## 抽帧Extract Frames
 
@@ -70,7 +71,7 @@ kinetics400_30fps_frames/
 
 ## TODO
 
-- [ ] 更多下载方式
+- [x] 更多下载方式
 
 ## 参考
 
