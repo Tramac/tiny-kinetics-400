@@ -22,7 +22,7 @@ Tiny-Kinetics-400同样包含400个类别，每个类别下仅有两条视频数
 
 | 下载方式 | 链接                                                         |
 | -------- | ------------------------------------------------------------ |
-| 百度云   | [BaiduCloud](https://pan.baidu.com/s/1gMySqkNZjGaO0SDRUBXt-g) (密码:7jjf) |
+| 百度云   | [BaiduCloud](https://pan.baidu.com/s/1l0DeJHBDuK4oBoDwyZdzOQ) (密码:xo0j) |
 
 ## 抽帧Extract Frames
 
