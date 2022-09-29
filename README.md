@@ -36,8 +36,7 @@ Tiny-Kinetics-400同样包含400个类别，每个类别下仅有两条视频数
 使用方式：
 
 ```shell
-python ./tools/extract_frames.py --source_dir ~/data/tiny-kinetics-400/train_256 ~/data/kinetics400_30fps_frames/train
-python ./tools/extract_frames.py --source_dir ~/data/tiny-kinetics-400/val_256 ~/data/kinetics400_30fps_frames/val
+python ./tools/extract_frames.py --source_dir ~/data/tiny-kinetics-400 ~/data/kinetics400_30fps_frames
 ```
 
 将meta文件移到视频帧目录下：
@@ -51,27 +50,16 @@ mv ./annotations/tiny_val.csv ~/data/kinetics400_30fps_frames/
 
 ```
 kinetics400_30fps_frames/
-├── train/
-│   ├── abseiling/
-│   │   ├──_4YTwq0-73Y_000044_000054
-│   │   │  ├──frame_00001.jpg
-│   │   │  ├──...
-│   │   ├──...
+├── abseiling/
+│   ├──_4YTwq0-73Y_000044_000054
+│   │  ├──frame_00001.jpg
+│   │  ├──...
 │   ├──...
-├── val/
-│   ├── abseiling/
-│   │   ├──-3B32lodo2M_000059_000069
-│   │   │  ├──frame_00001.jpg
-│   │   │  ├──...
-│   │   ├──...
-│   ├──...
+├──...
 ├── tiny_train.csv
 ├── tiny_val.csv
 ```
 
-## TODO
-
-- [x] 更多下载方式
 
 ## 参考
 
