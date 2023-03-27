@@ -28,7 +28,8 @@ def extract_frames(source_dir, target_dir):
             os.makedirs(target_class_dir)
 
         for each_video in videos:
-            source_video_name = os.path.join(source_class_dir, each_video)
+            # source_video_name = os.path.join(source_class_dir, each_video) # this only get the folder name
+            source_video_name_ = os.path.join(source_video_name, os.listdir(source_video_name)[0]) # this can get the mp4 name
             video_prefix = each_video.split('.')[0]
             target_video_frames_folder = os.path.join(target_class_dir, video_prefix)
             if not os.path.exists(target_video_frames_folder):
@@ -37,8 +38,10 @@ def extract_frames(source_dir, target_dir):
 
             try:
                 # change videos to 30 fps and extract video frames
+                #subprocess.call('ffmpeg -nostats -loglevel 0 -i "%s" -filter:v fps=fps=30 -s 340x256 -q:v 2 "%s"' %
+                #                (source_video_name, target_frames), shell=True)
                 subprocess.call('ffmpeg -nostats -loglevel 0 -i "%s" -filter:v fps=fps=30 -s 340x256 -q:v 2 "%s"' %
-                                (source_video_name, target_frames), shell=True)
+                                (source_video_name_, target_frames), shell=True)
 
                 # sanity check video frames
                 video_frames = os.listdir(target_video_frames_folder)
