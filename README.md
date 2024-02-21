@@ -36,7 +36,7 @@ Tiny-Kinetics-400同样包含400个类别，每个类别下仅有两条视频数
 使用方式：
 
 ```shell
-python ./tools/extract_frames.py --source_dir ~/data/tiny-kinetics-400 ~/data/kinetics400_30fps_frames
+python ./tools/extract_frames.py --source_dir ./data/tiny-kinetics-400 --tartget_dir ./data/kinetics400_30fps_frames
 ```
 
 将meta文件移到视频帧目录下：
